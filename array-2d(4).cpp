@@ -82,8 +82,9 @@ int main()
                 cout <<setw(3)<<Mat_D[i][j];
             }cout << endl;
         }
-    }else
+    }else {
         cout << "\nTidak dapat dijumlahkan dan dikurangkan!!!\n\n";
+    }
 
     if (kolom1==baris2){
         //Menghitung perkalian dua buah matriks
@@ -104,8 +105,9 @@ int main()
                 cout <<setw(3)<<Mat_E[i][j];
             }cout <<endl;
         }
-    }else
+    }else {
         cout << "\nKedua matriks tidak dapat dikalikan!!!";
+    }
     getch();
     return 0;
 }
